@@ -1,0 +1,46 @@
+body {
+  background-color: gray;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#message-container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 48px 48px 48px;
+}
+
+#message-container div {
+  background-color: #ccc;
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #fff;
+}
+#send-container {
+  width: 80%;
+  margin: auto;
+  height: 40px;
+}
+
+#send-container input {
+  width: 80%;
+  height: 100%;
+}
+#send-container button {
+  width: 50px;
+  height: 100%;
+}
+#send-container button:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: 0.15s ease-in;
+}
